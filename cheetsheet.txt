@@ -1,0 +1,12 @@
+$ git config --global user.name "Gautam Singh"
+$ git config --global user.email "gautam728090@gmail.com"
+$ touch .gitignore
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+$ git status
+$ git remote add origin git@github.com:Gautam-Jee/ResponsiveWebsite.git
+$ ssh-keygen -t ed25519 -C "gautam728090@gmail.com"
+$  cat /c/Users/gauta/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDbCx06K3XardSSyRxVwzzwBkrG9NSZ6bK5JTR9l2EVr gautam728090@gmail.com(paste into github)
+$ git push origin master
